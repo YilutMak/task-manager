@@ -1,0 +1,750 @@
+2024-03-18T21:39:56.236+0800 INFO Attempt to read user data
+2024-03-18T21:39:56.240+0800 ERROR File Not Found Exception: src\main\resources\users.json (The system cannot find the file specified)
+2024-03-18T21:39:56.240+0800 INFO Succesfully retreived tasks data
+2024-03-18T21:40:44.740+0800 INFO Attempt to read user data
+2024-03-18T21:40:44.742+0800 ERROR File Not Found Exception: src\main\resources\users.json (The system cannot find the file specified)
+2024-03-18T21:40:44.743+0800 INFO Succesfully retreived tasks data
+2024-03-18T21:43:16.548+0800 INFO Attempt to read user data
+2024-03-18T21:43:16.551+0800 ERROR File Not Found Exception: src\main\resources\users.json (The system cannot find the file specified)
+2024-03-18T21:43:16.551+0800 INFO Succesfully retreived tasks data
+2024-03-18T21:56:18.407+0800 INFO Attempt to read tasks data
+2024-03-18T21:56:18.461+0800 INFO Successfully retrieved tasks data
+2024-03-18T22:02:17.361+0800 INFO Attempt to read tasks data
+2024-03-18T22:02:17.420+0800 INFO Successfully retrieved tasks data
+2024-03-18T22:04:13.954+0800 INFO Attempt to read tasks data
+2024-03-18T22:04:14.015+0800 INFO Successfully retrieved tasks data
+2024-03-18T22:04:52.060+0800 INFO Attempt to read tasks data
+2024-03-18T22:04:52.118+0800 INFO Successfully retrieved tasks data
+2024-03-18T22:27:11.859+0800 INFO Attempt to read tasks data
+2024-03-18T22:27:11.917+0800 INFO Successfully retrieved tasks data
+2024-03-18T22:27:12.892+0800 INFO Attempt to write tasks data
+2024-03-18T22:27:12.910+0800 INFO Successfully wrote tasks data
+2024-03-18T22:27:54.423+0800 INFO Attempt to read tasks data
+2024-03-18T22:27:54.482+0800 INFO Successfully retrieved tasks data
+2024-03-18T22:27:55.476+0800 INFO Attempt to write tasks data
+2024-03-18T22:27:55.494+0800 INFO Successfully wrote tasks data
+2024-03-18T22:30:29.222+0800 INFO Attempt to read tasks data
+2024-03-18T22:30:29.282+0800 INFO Successfully retrieved tasks data
+2024-03-18T22:30:30.257+0800 INFO Attempt to write tasks data
+2024-03-18T22:30:30.275+0800 INFO Successfully wrote tasks data
+2024-03-18T22:58:35.082+0800 INFO Attempt to read tasks data
+2024-03-18T22:58:35.141+0800 INFO Successfully retrieved tasks data
+2024-03-18T22:58:36.110+0800 INFO Attempt to write tasks data
+2024-03-18T22:58:36.128+0800 INFO Successfully wrote tasks data
+2024-03-18T22:59:04.724+0800 INFO Attempt to read tasks data
+2024-03-18T22:59:04.784+0800 INFO Successfully retrieved tasks data
+2024-03-18T22:59:05.692+0800 INFO Attempt to write tasks data
+2024-03-18T22:59:05.713+0800 INFO Successfully wrote tasks data
+2024-03-18T23:28:23.419+0800 INFO Attempt to read tasks data
+2024-03-18T23:28:23.482+0800 ERROR JSON Mapping Exception: Cannot construct instance of `org.example.Task` (although at least one Creator exists): no int/Int-argument constructor/factory method to deserialize from Number value (2)
+ at [Source: (File); line: 7, column: 13] (through reference chain: java.util.LinkedList[0]->org.example.Task["next"])
+2024-03-18T23:28:23.482+0800 INFO Successfully retrieved tasks data
+2024-03-18T23:28:24.366+0800 INFO Attempt to write tasks data
+2024-03-18T23:28:24.397+0800 ERROR JSON Mapping Exception: Infinite recursion (StackOverflowError) (through reference chain: org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"]->org.example.Task["previous"]->org.example.Task["next"])
+2024-03-18T23:33:13.878+0800 INFO Attempt to read tasks data
+2024-03-18T23:33:13.947+0800 ERROR JSON Mapping Exception: Depth (1001) exceeds the maximum allowed nesting depth (1000) (through reference chain: java.util.LinkedList[0])
+2024-03-18T23:33:13.947+0800 INFO Successfully retrieved tasks data
+2024-03-18T23:33:13.967+0800 INFO Attempt to write tasks data
+2024-03-18T23:33:13.985+0800 INFO Successfully wrote tasks data
+2024-03-18T23:33:58.254+0800 INFO Attempt to read tasks data
+2024-03-18T23:33:58.320+0800 INFO Successfully retrieved tasks data
+2024-03-18T23:33:58.335+0800 INFO Attempt to write tasks data
+2024-03-18T23:33:58.349+0800 INFO Successfully wrote tasks data
+2024-03-18T23:45:07.893+0800 INFO Attempt to read tasks data
+2024-03-18T23:45:07.956+0800 INFO Successfully retrieved tasks data
+2024-03-18T23:45:07.972+0800 INFO Attempt to write tasks data
+2024-03-18T23:45:07.988+0800 INFO Successfully wrote tasks data
+2024-03-18T23:45:40.812+0800 INFO Attempt to read tasks data
+2024-03-18T23:45:40.875+0800 INFO Successfully retrieved tasks data
+2024-03-18T23:45:40.890+0800 INFO Attempt to write tasks data
+2024-03-18T23:45:40.904+0800 INFO Successfully wrote tasks data
+2024-03-18T23:51:18.533+0800 INFO Attempt to read tasks data
+2024-03-18T23:51:18.599+0800 INFO Successfully retrieved tasks data
+2024-03-18T23:51:18.617+0800 INFO Attempt to write tasks data
+2024-03-18T23:51:18.635+0800 INFO Successfully wrote tasks data
+2024-03-18T23:53:28.329+0800 INFO Attempt to read tasks data
+2024-03-18T23:53:28.393+0800 INFO Successfully retrieved tasks data
+2024-03-18T23:53:28.410+0800 INFO Attempt to write tasks data
+2024-03-18T23:53:28.424+0800 INFO Successfully wrote tasks data
+2024-03-18T23:53:48.627+0800 INFO Attempt to read tasks data
+2024-03-18T23:53:48.691+0800 INFO Successfully retrieved tasks data
+2024-03-18T23:53:48.701+0800 INFO Attempt to write tasks data
+2024-03-18T23:53:48.717+0800 INFO Successfully wrote tasks data
+2024-03-19T00:14:08.269+0800 INFO Attempt to read tasks data
+2024-03-19T00:14:08.316+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:14:08.330+0800 INFO Attempt to write tasks data
+2024-03-19T00:14:08.342+0800 INFO Successfully wrote tasks data
+2024-03-19T00:16:22.026+0800 INFO Attempt to read tasks data
+2024-03-19T00:16:22.075+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:16:22.086+0800 INFO Attempt to read tasks data
+2024-03-19T00:16:22.087+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:16:22.092+0800 INFO Attempt to write tasks data
+2024-03-19T00:16:22.104+0800 INFO Successfully wrote tasks data
+2024-03-19T00:18:09.936+0800 INFO Attempt to read tasks data
+2024-03-19T00:18:09.998+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:18:10.007+0800 INFO Attempt to read tasks data
+2024-03-19T00:18:10.008+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:18:10.010+0800 INFO Attempt to write tasks data
+2024-03-19T00:18:10.026+0800 INFO Successfully wrote tasks data
+2024-03-19T00:22:05.076+0800 INFO Attempt to read tasks data
+2024-03-19T00:22:05.137+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:22:05.147+0800 INFO Attempt to read tasks data
+2024-03-19T00:22:05.148+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:22:05.152+0800 INFO Attempt to write tasks data
+2024-03-19T00:22:05.167+0800 INFO Successfully wrote tasks data
+2024-03-19T00:24:24.943+0800 INFO Attempt to read tasks data
+2024-03-19T00:24:25.003+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:24:25.013+0800 INFO Attempt to read tasks data
+2024-03-19T00:24:25.015+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:24:25.021+0800 INFO Attempt to write tasks data
+2024-03-19T00:24:25.036+0800 INFO Successfully wrote tasks data
+2024-03-19T00:26:13.974+0800 INFO Attempt to read tasks data
+2024-03-19T00:26:14.037+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:26:14.049+0800 INFO Attempt to read tasks data
+2024-03-19T00:26:14.050+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:26:14.052+0800 INFO Attempt to write tasks data
+2024-03-19T00:26:14.068+0800 INFO Successfully wrote tasks data
+2024-03-19T00:42:42.273+0800 INFO Attempt to read tasks data
+2024-03-19T00:42:42.334+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:42:42.334+0800 INFO Attempt to write tasks data
+2024-03-19T00:42:42.349+0800 INFO Successfully wrote tasks data
+2024-03-19T00:42:42.358+0800 INFO Attempt to read tasks data
+2024-03-19T00:42:42.359+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:42:42.367+0800 INFO Attempt to read tasks data
+2024-03-19T00:42:42.368+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:42:42.370+0800 INFO Attempt to write tasks data
+2024-03-19T00:42:42.371+0800 INFO Successfully wrote tasks data
+2024-03-19T00:45:16.799+0800 INFO Attempt to read tasks data
+2024-03-19T00:45:16.861+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:45:16.886+0800 INFO Attempt to read tasks data
+2024-03-19T00:45:16.887+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:45:16.889+0800 INFO Attempt to read tasks data
+2024-03-19T00:45:16.890+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:46:25.908+0800 INFO Attempt to read tasks data
+2024-03-19T00:46:25.974+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:46:25.974+0800 INFO Attempt to write tasks data
+2024-03-19T00:46:25.991+0800 INFO Successfully wrote tasks data
+2024-03-19T00:46:26.000+0800 INFO Attempt to read tasks data
+2024-03-19T00:46:26.001+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:46:26.008+0800 INFO Attempt to read tasks data
+2024-03-19T00:46:26.009+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:46:26.011+0800 INFO Attempt to write tasks data
+2024-03-19T00:46:26.012+0800 INFO Successfully wrote tasks data
+2024-03-19T00:46:56.967+0800 INFO Attempt to read tasks data
+2024-03-19T00:46:57.026+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:46:57.026+0800 INFO Attempt to write tasks data
+2024-03-19T00:46:57.043+0800 INFO Successfully wrote tasks data
+2024-03-19T00:46:57.051+0800 INFO Attempt to read tasks data
+2024-03-19T00:46:57.052+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:46:57.054+0800 INFO Attempt to read tasks data
+2024-03-19T00:46:57.055+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:46:57.058+0800 INFO Attempt to write tasks data
+2024-03-19T00:46:57.059+0800 INFO Successfully wrote tasks data
+2024-03-19T00:50:47.300+0800 INFO Attempt to read tasks data
+2024-03-19T00:50:47.363+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:50:47.363+0800 INFO Attempt to write tasks data
+2024-03-19T00:50:47.383+0800 INFO Successfully wrote tasks data
+2024-03-19T00:50:47.391+0800 INFO Attempt to read tasks data
+2024-03-19T00:50:47.393+0800 ERROR JSON Mapping Exception: Cannot deserialize value of type `java.util.LinkedList<org.example.Task>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (File); line: 1, column: 1]
+2024-03-19T00:50:47.393+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:50:47.400+0800 INFO Attempt to read tasks data
+2024-03-19T00:50:47.401+0800 ERROR JSON Mapping Exception: Cannot deserialize value of type `java.util.LinkedList<org.example.Task>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (File); line: 1, column: 1]
+2024-03-19T00:50:47.401+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:50:47.402+0800 INFO Attempt to write tasks data
+2024-03-19T00:50:47.404+0800 INFO Successfully wrote tasks data
+2024-03-19T00:53:33.005+0800 INFO Attempt to read tasks data
+2024-03-19T00:53:33.073+0800 ERROR JSON Mapping Exception: Cannot construct instance of `org.example.Tasks` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 2, column: 3]
+2024-03-19T00:53:33.073+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:53:33.073+0800 INFO Attempt to write tasks data
+2024-03-19T00:53:33.092+0800 INFO Successfully wrote tasks data
+2024-03-19T00:53:33.102+0800 INFO Attempt to read tasks data
+2024-03-19T00:53:33.103+0800 ERROR JSON Mapping Exception: Cannot construct instance of `org.example.Tasks` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 2, column: 3]
+2024-03-19T00:53:33.103+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:53:33.117+0800 INFO Attempt to read tasks data
+2024-03-19T00:53:33.118+0800 ERROR JSON Mapping Exception: Cannot construct instance of `org.example.Tasks` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 2, column: 3]
+2024-03-19T00:53:33.118+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:53:33.120+0800 INFO Attempt to write tasks data
+2024-03-19T00:53:33.122+0800 INFO Successfully wrote tasks data
+2024-03-19T00:55:26.223+0800 INFO Attempt to read tasks data
+2024-03-19T00:55:26.284+0800 ERROR JSON Mapping Exception: Cannot construct instance of `org.example.Tasks` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 2, column: 3]
+2024-03-19T00:55:26.285+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:55:26.285+0800 INFO Attempt to write tasks data
+2024-03-19T00:55:26.302+0800 INFO Successfully wrote tasks data
+2024-03-19T00:55:26.311+0800 INFO Attempt to read tasks data
+2024-03-19T00:55:26.312+0800 ERROR JSON Mapping Exception: Cannot construct instance of `org.example.Tasks` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 2, column: 3]
+2024-03-19T00:55:26.312+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:55:26.319+0800 INFO Attempt to read tasks data
+2024-03-19T00:55:26.320+0800 ERROR JSON Mapping Exception: Cannot construct instance of `org.example.Tasks` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (File); line: 2, column: 3]
+2024-03-19T00:55:26.321+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:55:26.322+0800 INFO Attempt to write tasks data
+2024-03-19T00:55:26.324+0800 INFO Successfully wrote tasks data
+2024-03-19T00:57:47.930+0800 INFO Attempt to read tasks data
+2024-03-19T00:57:47.991+0800 ERROR JSON Mapping Exception: Cannot deserialize value of type `java.util.LinkedList<org.example.Task>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (File); line: 1, column: 1]
+2024-03-19T00:57:47.991+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:57:47.992+0800 INFO Attempt to write tasks data
+2024-03-19T00:57:48.006+0800 INFO Successfully wrote tasks data
+2024-03-19T00:57:48.015+0800 INFO Attempt to read tasks data
+2024-03-19T00:57:48.017+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:57:48.024+0800 INFO Attempt to read tasks data
+2024-03-19T00:57:48.025+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:57:48.026+0800 INFO Attempt to write tasks data
+2024-03-19T00:57:48.027+0800 INFO Successfully wrote tasks data
+2024-03-19T00:58:30.036+0800 INFO Attempt to read tasks data
+2024-03-19T00:58:30.098+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:58:30.098+0800 INFO Attempt to write tasks data
+2024-03-19T00:58:30.114+0800 INFO Successfully wrote tasks data
+2024-03-19T00:58:30.123+0800 INFO Attempt to read tasks data
+2024-03-19T00:58:30.124+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:58:30.126+0800 INFO Attempt to read tasks data
+2024-03-19T00:58:30.127+0800 INFO Successfully retrieved tasks data
+2024-03-19T00:58:30.130+0800 INFO Attempt to write tasks data
+2024-03-19T00:58:30.131+0800 INFO Successfully wrote tasks data
+2024-03-19T01:00:29.008+0800 INFO Attempt to read tasks data
+2024-03-19T01:00:29.078+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:00:29.079+0800 INFO Attempt to write tasks data
+2024-03-19T01:00:29.099+0800 INFO Successfully wrote tasks data
+2024-03-19T01:00:29.109+0800 INFO Attempt to read tasks data
+2024-03-19T01:00:29.110+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:00:29.113+0800 INFO Attempt to read tasks data
+2024-03-19T01:00:29.113+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:20:43.453+0800 INFO Attempt to read tasks data
+2024-03-19T01:20:43.517+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:20:43.518+0800 INFO Attempt to write tasks data
+2024-03-19T01:20:43.535+0800 INFO Successfully wrote tasks data
+2024-03-19T01:20:43.536+0800 INFO Task was added
+2024-03-19T01:20:43.544+0800 INFO Attempt to read tasks data
+2024-03-19T01:20:43.545+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:20:43.551+0800 INFO Attempt to read tasks data
+2024-03-19T01:20:43.552+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:20:43.552+0800 INFO Task retrieved
+2024-03-19T01:20:43.553+0800 INFO Attempt to read tasks data
+2024-03-19T01:20:43.554+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:20:43.554+0800 INFO Attempt to write tasks data
+2024-03-19T01:20:43.555+0800 INFO Successfully wrote tasks data
+2024-03-19T01:20:43.556+0800 INFO Task was deleted
+2024-03-19T01:20:43.556+0800 INFO Attempt to read tasks data
+2024-03-19T01:20:43.556+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:20:43.556+0800 INFO Task retrieved
+2024-03-19T01:20:43.558+0800 INFO Attempt to read tasks data
+2024-03-19T01:20:43.559+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:20:43.559+0800 INFO Task retrieved
+2024-03-19T01:20:43.561+0800 INFO Attempt to write tasks data
+2024-03-19T01:20:43.561+0800 INFO Successfully wrote tasks data
+2024-03-19T01:22:32.449+0800 INFO Attempt to read tasks data
+2024-03-19T01:22:32.511+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:22:32.511+0800 INFO Attempt to write tasks data
+2024-03-19T01:22:32.526+0800 INFO Successfully wrote tasks data
+2024-03-19T01:22:32.527+0800 INFO Task was added
+2024-03-19T01:22:32.535+0800 INFO Attempt to read tasks data
+2024-03-19T01:22:32.536+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:22:32.542+0800 INFO Attempt to read tasks data
+2024-03-19T01:22:32.543+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:22:32.543+0800 INFO Task retrieved
+2024-03-19T01:22:32.544+0800 INFO Attempt to read tasks data
+2024-03-19T01:22:32.545+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:22:32.545+0800 INFO Attempt to write tasks data
+2024-03-19T01:22:32.546+0800 INFO Successfully wrote tasks data
+2024-03-19T01:22:32.547+0800 INFO Task was deleted
+2024-03-19T01:22:32.547+0800 INFO Attempt to read tasks data
+2024-03-19T01:22:32.548+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:22:32.549+0800 INFO Task retrieved
+2024-03-19T01:22:32.551+0800 INFO Attempt to read tasks data
+2024-03-19T01:22:32.552+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:22:32.552+0800 INFO Task retrieved
+2024-03-19T01:22:32.555+0800 INFO Attempt to write tasks data
+2024-03-19T01:22:32.556+0800 INFO Successfully wrote tasks data
+2024-03-19T01:24:10.387+0800 INFO Attempt to read tasks data
+2024-03-19T01:24:10.446+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:24:10.446+0800 INFO Attempt to write tasks data
+2024-03-19T01:24:10.461+0800 INFO Successfully wrote tasks data
+2024-03-19T01:24:10.461+0800 INFO Task was added
+2024-03-19T01:24:10.469+0800 INFO Attempt to read tasks data
+2024-03-19T01:24:10.470+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:24:10.474+0800 INFO Attempt to read tasks data
+2024-03-19T01:24:10.475+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:24:10.475+0800 INFO Task retrieved
+2024-03-19T01:24:10.476+0800 INFO Attempt to read tasks data
+2024-03-19T01:24:10.476+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:24:10.477+0800 INFO Attempt to write tasks data
+2024-03-19T01:24:10.477+0800 INFO Successfully wrote tasks data
+2024-03-19T01:24:10.478+0800 INFO Task was deleted
+2024-03-19T01:24:10.478+0800 INFO Attempt to read tasks data
+2024-03-19T01:24:10.479+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:24:10.479+0800 INFO Task retrieved
+2024-03-19T01:24:10.480+0800 INFO Attempt to read tasks data
+2024-03-19T01:24:10.481+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:24:10.481+0800 INFO Task retrieved
+2024-03-19T01:24:10.483+0800 INFO Attempt to write tasks data
+2024-03-19T01:24:10.484+0800 INFO Successfully wrote tasks data
+2024-03-19T01:25:33.966+0800 INFO Attempt to read tasks data
+2024-03-19T01:25:34.038+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:25:34.038+0800 INFO Attempt to write tasks data
+2024-03-19T01:25:34.057+0800 INFO Successfully wrote tasks data
+2024-03-19T01:25:34.058+0800 INFO Task was added
+2024-03-19T01:25:34.067+0800 INFO Attempt to read tasks data
+2024-03-19T01:25:34.068+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:25:34.070+0800 INFO Attempt to read tasks data
+2024-03-19T01:25:34.071+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:25:34.071+0800 INFO Task retrieved
+2024-03-19T01:25:34.075+0800 INFO Attempt to read tasks data
+2024-03-19T01:25:34.076+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:25:34.076+0800 INFO Attempt to write tasks data
+2024-03-19T01:25:34.078+0800 INFO Successfully wrote tasks data
+2024-03-19T01:25:34.078+0800 INFO Task was deleted
+2024-03-19T01:25:34.078+0800 INFO Attempt to read tasks data
+2024-03-19T01:25:34.080+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:25:34.080+0800 INFO Task retrieved
+2024-03-19T01:25:34.082+0800 INFO Attempt to read tasks data
+2024-03-19T01:25:34.083+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:25:34.083+0800 INFO Task retrieved
+2024-03-19T01:25:34.086+0800 INFO Attempt to write tasks data
+2024-03-19T01:25:34.087+0800 INFO Successfully wrote tasks data
+2024-03-19T01:31:33.635+0800 INFO Attempt to read tasks data
+2024-03-19T01:31:33.698+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:31:33.698+0800 INFO Attempt to write tasks data
+2024-03-19T01:31:33.714+0800 INFO Successfully wrote tasks data
+2024-03-19T01:31:33.714+0800 INFO Task was added
+2024-03-19T01:31:33.722+0800 INFO Attempt to read tasks data
+2024-03-19T01:31:33.723+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:31:33.724+0800 INFO Attempt to read tasks data
+2024-03-19T01:31:33.725+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:31:33.725+0800 INFO Task retrieved
+2024-03-19T01:31:33.729+0800 INFO Attempt to read tasks data
+2024-03-19T01:31:33.729+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:31:33.729+0800 INFO Attempt to write tasks data
+2024-03-19T01:31:33.730+0800 INFO Successfully wrote tasks data
+2024-03-19T01:31:33.730+0800 INFO Task was deleted
+2024-03-19T01:31:33.731+0800 INFO Attempt to read tasks data
+2024-03-19T01:31:33.732+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:31:33.732+0800 INFO Task retrieved
+2024-03-19T01:31:33.734+0800 INFO Attempt to read tasks data
+2024-03-19T01:31:33.734+0800 INFO Successfully retrieved tasks data
+2024-03-19T01:31:33.734+0800 INFO Task retrieved
+2024-03-19T01:31:33.737+0800 INFO Attempt to write tasks data
+2024-03-19T01:31:33.738+0800 INFO Successfully wrote tasks data
+2024-03-19T02:01:13.453+0800 INFO Attempt to read tasks data
+2024-03-19T02:01:13.513+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:01:13.514+0800 INFO Attempt to write tasks data
+2024-03-19T02:01:13.529+0800 INFO Successfully wrote tasks data
+2024-03-19T02:01:13.529+0800 INFO Task was added
+2024-03-19T02:01:13.537+0800 INFO Attempt to read tasks data
+2024-03-19T02:01:13.538+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:01:13.539+0800 INFO Attempt to read tasks data
+2024-03-19T02:01:13.540+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:01:13.540+0800 INFO Task retrieved
+2024-03-19T02:01:13.544+0800 INFO Attempt to read tasks data
+2024-03-19T02:01:13.544+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:01:13.544+0800 INFO Attempt to write tasks data
+2024-03-19T02:01:13.545+0800 INFO Successfully wrote tasks data
+2024-03-19T02:01:13.546+0800 INFO Task was deleted
+2024-03-19T02:01:13.546+0800 INFO Attempt to read tasks data
+2024-03-19T02:01:13.547+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:01:13.547+0800 INFO Task retrieved
+2024-03-19T02:01:13.549+0800 INFO Attempt to read tasks data
+2024-03-19T02:01:13.549+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:01:13.550+0800 INFO Task retrieved
+2024-03-19T02:01:13.552+0800 INFO Attempt to write tasks data
+2024-03-19T02:01:13.553+0800 INFO Successfully wrote tasks data
+2024-03-19T02:01:13.554+0800 INFO Attempt to read tasks data
+2024-03-19T02:01:13.554+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:01:13.555+0800 INFO Task position updated
+2024-03-19T02:01:13.555+0800 INFO Attempt to read tasks data
+2024-03-19T02:01:13.555+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:02:57.797+0800 INFO Attempt to read tasks data
+2024-03-19T02:02:57.860+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:02:57.860+0800 INFO Attempt to write tasks data
+2024-03-19T02:02:57.874+0800 INFO Successfully wrote tasks data
+2024-03-19T02:02:57.874+0800 INFO Task was added
+2024-03-19T02:02:57.882+0800 INFO Attempt to read tasks data
+2024-03-19T02:02:57.882+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:02:57.884+0800 INFO Attempt to read tasks data
+2024-03-19T02:02:57.884+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:02:57.884+0800 INFO Task retrieved
+2024-03-19T02:02:57.888+0800 INFO Attempt to read tasks data
+2024-03-19T02:02:57.888+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:02:57.888+0800 INFO Attempt to write tasks data
+2024-03-19T02:02:57.889+0800 INFO Successfully wrote tasks data
+2024-03-19T02:02:57.889+0800 INFO Task was deleted
+2024-03-19T02:02:57.889+0800 INFO Attempt to read tasks data
+2024-03-19T02:02:57.891+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:02:57.891+0800 INFO Task retrieved
+2024-03-19T02:02:57.892+0800 INFO Attempt to read tasks data
+2024-03-19T02:02:57.892+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:02:57.893+0800 INFO Task retrieved
+2024-03-19T02:02:57.895+0800 INFO Attempt to write tasks data
+2024-03-19T02:02:57.896+0800 INFO Successfully wrote tasks data
+2024-03-19T02:02:57.897+0800 INFO Attempt to read tasks data
+2024-03-19T02:02:57.897+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:02:57.897+0800 INFO Task position updated
+2024-03-19T02:02:57.897+0800 INFO Attempt to read tasks data
+2024-03-19T02:02:57.898+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:03:55.602+0800 INFO Attempt to read tasks data
+2024-03-19T02:03:55.664+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:03:55.664+0800 INFO Attempt to write tasks data
+2024-03-19T02:03:55.679+0800 INFO Successfully wrote tasks data
+2024-03-19T02:03:55.680+0800 INFO Task was added
+2024-03-19T02:03:55.689+0800 INFO Attempt to read tasks data
+2024-03-19T02:03:55.690+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:03:55.692+0800 INFO Attempt to read tasks data
+2024-03-19T02:03:55.692+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:03:55.692+0800 INFO Task retrieved
+2024-03-19T02:03:55.696+0800 INFO Attempt to read tasks data
+2024-03-19T02:03:55.697+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:03:55.697+0800 INFO Attempt to write tasks data
+2024-03-19T02:03:55.698+0800 INFO Successfully wrote tasks data
+2024-03-19T02:03:55.698+0800 INFO Task was deleted
+2024-03-19T02:03:55.698+0800 INFO Attempt to read tasks data
+2024-03-19T02:03:55.699+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:03:55.700+0800 INFO Task retrieved
+2024-03-19T02:03:55.701+0800 INFO Attempt to read tasks data
+2024-03-19T02:03:55.701+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:03:55.702+0800 INFO Task retrieved
+2024-03-19T02:03:55.705+0800 INFO Attempt to write tasks data
+2024-03-19T02:03:55.706+0800 INFO Successfully wrote tasks data
+2024-03-19T02:03:55.707+0800 INFO Attempt to read tasks data
+2024-03-19T02:03:55.707+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:03:55.708+0800 INFO Attempt to read tasks data
+2024-03-19T02:03:55.708+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:03:55.708+0800 INFO Task position updated
+2024-03-19T02:03:55.708+0800 INFO Attempt to read tasks data
+2024-03-19T02:03:55.709+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:04:46.940+0800 INFO Attempt to read tasks data
+2024-03-19T02:04:47.003+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:04:47.003+0800 INFO Attempt to write tasks data
+2024-03-19T02:04:47.017+0800 INFO Successfully wrote tasks data
+2024-03-19T02:04:47.017+0800 INFO Task was added
+2024-03-19T02:04:47.025+0800 INFO Attempt to read tasks data
+2024-03-19T02:04:47.026+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:04:47.028+0800 INFO Attempt to read tasks data
+2024-03-19T02:04:47.028+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:04:47.029+0800 INFO Task retrieved
+2024-03-19T02:04:47.032+0800 INFO Attempt to read tasks data
+2024-03-19T02:04:47.032+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:04:47.033+0800 INFO Attempt to write tasks data
+2024-03-19T02:04:47.034+0800 INFO Successfully wrote tasks data
+2024-03-19T02:04:47.034+0800 INFO Task was deleted
+2024-03-19T02:04:47.034+0800 INFO Attempt to read tasks data
+2024-03-19T02:04:47.035+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:04:47.035+0800 INFO Task retrieved
+2024-03-19T02:04:47.037+0800 INFO Attempt to read tasks data
+2024-03-19T02:04:47.037+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:04:47.037+0800 INFO Task retrieved
+2024-03-19T02:04:47.040+0800 INFO Attempt to write tasks data
+2024-03-19T02:04:47.041+0800 INFO Successfully wrote tasks data
+2024-03-19T02:04:47.042+0800 INFO Attempt to read tasks data
+2024-03-19T02:04:47.043+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:04:47.043+0800 INFO Attempt to read tasks data
+2024-03-19T02:04:47.043+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:04:47.043+0800 INFO Attempt to write tasks data
+2024-03-19T02:04:47.044+0800 INFO Successfully wrote tasks data
+2024-03-19T02:04:47.044+0800 INFO Task position updated
+2024-03-19T02:04:47.044+0800 INFO Attempt to read tasks data
+2024-03-19T02:04:47.044+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:05:21.055+0800 INFO Attempt to read tasks data
+2024-03-19T02:05:21.113+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:05:21.113+0800 INFO Attempt to write tasks data
+2024-03-19T02:05:21.127+0800 INFO Successfully wrote tasks data
+2024-03-19T02:05:21.127+0800 INFO Task was added
+2024-03-19T02:05:21.135+0800 INFO Attempt to read tasks data
+2024-03-19T02:05:21.136+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:05:21.138+0800 INFO Attempt to read tasks data
+2024-03-19T02:05:21.138+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:05:21.138+0800 INFO Task retrieved
+2024-03-19T02:05:21.141+0800 INFO Attempt to read tasks data
+2024-03-19T02:05:21.142+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:05:21.142+0800 INFO Attempt to write tasks data
+2024-03-19T02:05:21.143+0800 INFO Successfully wrote tasks data
+2024-03-19T02:05:21.143+0800 INFO Task was deleted
+2024-03-19T02:05:21.143+0800 INFO Attempt to read tasks data
+2024-03-19T02:05:21.144+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:05:21.145+0800 INFO Task retrieved
+2024-03-19T02:05:21.146+0800 INFO Attempt to read tasks data
+2024-03-19T02:05:21.146+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:05:21.146+0800 INFO Task retrieved
+2024-03-19T02:05:21.149+0800 INFO Attempt to write tasks data
+2024-03-19T02:05:21.149+0800 INFO Successfully wrote tasks data
+2024-03-19T02:05:21.150+0800 INFO Attempt to read tasks data
+2024-03-19T02:05:21.151+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:05:21.151+0800 INFO Attempt to read tasks data
+2024-03-19T02:05:21.151+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:05:21.151+0800 INFO Attempt to write tasks data
+2024-03-19T02:05:21.152+0800 INFO Successfully wrote tasks data
+2024-03-19T02:05:21.152+0800 INFO Task position updated
+2024-03-19T02:05:21.152+0800 INFO Attempt to read tasks data
+2024-03-19T02:05:21.153+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:16:06.955+0800 INFO Attempt to read tasks data
+2024-03-19T02:16:07.000+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:16:07.000+0800 INFO Task retrieved
+2024-03-19T02:18:36.450+0800 INFO Attempt to read tasks data
+2024-03-19T02:18:36.497+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:18:36.497+0800 INFO Task retrieved
+2024-03-19T02:19:28.112+0800 INFO Attempt to read tasks data
+2024-03-19T02:19:28.160+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:19:28.160+0800 INFO Task retrieved
+2024-03-19T02:21:25.095+0800 INFO Attempt to read tasks data
+2024-03-19T02:21:25.147+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:21:25.147+0800 INFO Task retrieved
+2024-03-19T02:24:03.889+0800 INFO Attempt to read tasks data
+2024-03-19T02:24:03.937+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:24:03.938+0800 INFO Task retrieved
+2024-03-19T02:25:05.893+0800 INFO Attempt to read tasks data
+2024-03-19T02:25:05.939+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:25:05.940+0800 INFO Task retrieved
+2024-03-19T02:25:38.656+0800 INFO Attempt to read tasks data
+2024-03-19T02:25:38.706+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:25:38.706+0800 INFO Task retrieved
+2024-03-19T02:26:07.442+0800 INFO Attempt to read tasks data
+2024-03-19T02:26:07.489+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:26:07.489+0800 INFO Task retrieved
+2024-03-19T02:26:21.195+0800 INFO Attempt to read tasks data
+2024-03-19T02:26:21.242+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:26:21.242+0800 INFO Task retrieved
+2024-03-19T02:26:38.651+0800 INFO Attempt to read tasks data
+2024-03-19T02:26:38.699+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:26:38.699+0800 INFO Task retrieved
+2024-03-19T02:27:51.989+0800 INFO Attempt to read tasks data
+2024-03-19T02:27:52.038+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:27:52.038+0800 INFO Task retrieved
+2024-03-19T02:28:23.106+0800 INFO Attempt to read tasks data
+2024-03-19T02:28:23.158+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:28:23.159+0800 INFO Task retrieved
+2024-03-19T02:29:23.382+0800 INFO Attempt to read tasks data
+2024-03-19T02:29:23.432+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:29:23.432+0800 INFO Task retrieved
+2024-03-19T02:29:38.310+0800 INFO Attempt to read tasks data
+2024-03-19T02:29:38.322+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:29:38.322+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:29:38.323+0800 INFO Task retrieved
+2024-03-19T02:30:10.940+0800 INFO Attempt to read tasks data
+2024-03-19T02:30:10.990+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:30:10.990+0800 INFO Task retrieved
+2024-03-19T02:30:23.583+0800 INFO Attempt to read tasks data
+2024-03-19T02:30:23.595+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:30:23.595+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:30:23.595+0800 INFO Task retrieved
+2024-03-19T02:30:49.523+0800 INFO Attempt to read tasks data
+2024-03-19T02:30:49.574+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:30:49.574+0800 INFO Task retrieved
+2024-03-19T02:31:04.743+0800 INFO Attempt to read tasks data
+2024-03-19T02:31:04.755+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:31:04.756+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:31:04.756+0800 INFO Task retrieved
+2024-03-19T02:31:21.727+0800 INFO Attempt to read tasks data
+2024-03-19T02:31:21.728+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:31:21.728+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:31:21.728+0800 INFO Attempt to write tasks data
+2024-03-19T02:31:21.756+0800 INFO Successfully wrote tasks data
+2024-03-19T02:31:21.756+0800 INFO Task was added
+2024-03-19T02:31:21.757+0800 INFO Attempt to read tasks data
+2024-03-19T02:31:21.774+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:31:21.774+0800 INFO Task retrieved
+2024-03-19T02:31:43.425+0800 INFO Attempt to read tasks data
+2024-03-19T02:31:43.438+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:31:43.438+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:31:43.438+0800 INFO Task retrieved
+2024-03-19T02:32:35.876+0800 INFO Attempt to read tasks data
+2024-03-19T02:32:35.889+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:32:35.889+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:32:35.889+0800 INFO Task retrieved
+2024-03-19T02:35:51.931+0800 INFO Attempt to read tasks data
+2024-03-19T02:35:51.943+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:35:51.943+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:35:51.944+0800 INFO Task retrieved
+2024-03-19T02:36:40.838+0800 INFO Attempt to read tasks data
+2024-03-19T02:36:40.850+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:36:40.851+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:36:40.851+0800 INFO Task retrieved
+2024-03-19T02:41:22.535+0800 INFO Attempt to read tasks data
+2024-03-19T02:41:22.548+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:41:22.548+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:41:22.548+0800 INFO Task retrieved
+2024-03-19T02:42:03.388+0800 INFO Attempt to read tasks data
+2024-03-19T02:42:03.401+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:42:03.401+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:42:03.401+0800 INFO Task retrieved
+2024-03-19T02:42:15.958+0800 INFO Attempt to read tasks data
+2024-03-19T02:42:15.972+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:42:15.972+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:42:15.972+0800 INFO Task retrieved
+2024-03-19T02:43:02.931+0800 INFO Attempt to read tasks data
+2024-03-19T02:43:02.932+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:43:02.932+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:43:02.932+0800 INFO Attempt to write tasks data
+2024-03-19T02:43:02.960+0800 INFO Successfully wrote tasks data
+2024-03-19T02:43:02.960+0800 INFO Task was added
+2024-03-19T02:44:24.631+0800 INFO Attempt to read tasks data
+2024-03-19T02:44:24.682+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:44:24.682+0800 INFO Task retrieved
+2024-03-19T02:44:55.750+0800 INFO Attempt to read tasks data
+2024-03-19T02:44:55.751+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:44:55.751+0800 INFO Attempt to write tasks data
+2024-03-19T02:44:55.763+0800 INFO Successfully wrote tasks data
+2024-03-19T02:44:55.763+0800 INFO Task was added
+2024-03-19T02:45:42.685+0800 INFO Attempt to read tasks data
+2024-03-19T02:45:42.733+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:45:42.733+0800 INFO Task retrieved
+2024-03-19T02:45:49.527+0800 INFO Attempt to read tasks data
+2024-03-19T02:45:49.528+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:45:49.528+0800 INFO Attempt to write tasks data
+2024-03-19T02:45:49.540+0800 INFO Successfully wrote tasks data
+2024-03-19T02:45:49.540+0800 INFO Task was added
+2024-03-19T02:45:51.376+0800 INFO Attempt to read tasks data
+2024-03-19T02:45:51.377+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:45:51.377+0800 INFO Task retrieved
+2024-03-19T02:47:27.934+0800 INFO Attempt to read tasks data
+2024-03-19T02:47:27.946+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:47:27.946+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:47:27.947+0800 INFO Task retrieved
+2024-03-19T02:47:33.463+0800 INFO Attempt to read tasks data
+2024-03-19T02:47:33.463+0800 ERROR JSON Mapping Exception: No content to map due to end-of-input
+ at [Source: (File); line: 1, column: 0]
+2024-03-19T02:47:33.463+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:47:33.464+0800 INFO Attempt to write tasks data
+2024-03-19T02:47:33.491+0800 INFO Successfully wrote tasks data
+2024-03-19T02:47:33.492+0800 INFO Task was added
+2024-03-19T02:47:35.768+0800 INFO Attempt to read tasks data
+2024-03-19T02:47:35.787+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:47:35.787+0800 INFO Task retrieved
+2024-03-19T02:47:55.782+0800 INFO Attempt to read tasks data
+2024-03-19T02:47:55.783+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:47:55.783+0800 INFO Attempt to write tasks data
+2024-03-19T02:47:55.784+0800 INFO Successfully wrote tasks data
+2024-03-19T02:47:55.784+0800 INFO Task was deleted
+2024-03-19T02:47:55.784+0800 INFO Attempt to read tasks data
+2024-03-19T02:47:55.785+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:47:55.785+0800 INFO Task retrieved
+2024-03-19T02:49:49.674+0800 INFO Attempt to read tasks data
+2024-03-19T02:49:49.721+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:49:49.721+0800 INFO Task retrieved
+2024-03-19T02:49:59.351+0800 INFO Attempt to read tasks data
+2024-03-19T02:49:59.351+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:49:59.352+0800 INFO Attempt to write tasks data
+2024-03-19T02:49:59.363+0800 INFO Successfully wrote tasks data
+2024-03-19T02:49:59.364+0800 INFO Task was added
+2024-03-19T02:50:03.074+0800 INFO Attempt to read tasks data
+2024-03-19T02:50:03.076+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:50:03.076+0800 INFO Attempt to write tasks data
+2024-03-19T02:50:03.077+0800 INFO Successfully wrote tasks data
+2024-03-19T02:50:03.077+0800 INFO Task was added
+2024-03-19T02:50:09.082+0800 INFO Attempt to read tasks data
+2024-03-19T02:50:09.083+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:50:09.083+0800 INFO Attempt to write tasks data
+2024-03-19T02:50:09.083+0800 INFO Successfully wrote tasks data
+2024-03-19T02:50:09.083+0800 INFO Task was added
+2024-03-19T02:50:10.486+0800 INFO Attempt to read tasks data
+2024-03-19T02:50:10.486+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:50:10.486+0800 INFO Task retrieved
+2024-03-19T02:50:38.294+0800 INFO Attempt to read tasks data
+2024-03-19T02:50:38.341+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:50:38.341+0800 INFO Task retrieved
+2024-03-19T02:52:46.322+0800 INFO Attempt to read tasks data
+2024-03-19T02:52:46.373+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:52:46.373+0800 INFO Task retrieved
+2024-03-19T02:53:26.769+0800 INFO Attempt to read tasks data
+2024-03-19T02:53:26.816+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:53:26.816+0800 INFO Task retrieved
+2024-03-19T02:53:36.763+0800 INFO Attempt to read tasks data
+2024-03-19T02:53:36.764+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:53:36.764+0800 INFO Task retrieved
+2024-03-19T02:53:36.764+0800 INFO Attempt to read tasks data
+2024-03-19T02:53:36.765+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:53:36.765+0800 INFO Attempt to write tasks data
+2024-03-19T02:53:36.777+0800 INFO Successfully wrote tasks data
+2024-03-19T02:53:36.777+0800 INFO Task was deleted
+2024-03-19T02:53:36.778+0800 INFO Attempt to read tasks data
+2024-03-19T02:53:36.778+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:53:36.778+0800 INFO Task retrieved
+2024-03-19T02:53:49.328+0800 INFO Attempt to read tasks data
+2024-03-19T02:53:49.329+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:53:49.329+0800 INFO Task retrieved
+2024-03-19T02:53:49.329+0800 INFO Attempt to read tasks data
+2024-03-19T02:53:49.329+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:53:49.329+0800 INFO Attempt to write tasks data
+2024-03-19T02:53:49.330+0800 INFO Successfully wrote tasks data
+2024-03-19T02:53:49.330+0800 INFO Task was deleted
+2024-03-19T02:53:49.331+0800 INFO Attempt to read tasks data
+2024-03-19T02:53:49.332+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:53:49.332+0800 INFO Task retrieved
+2024-03-19T02:54:47.024+0800 INFO Attempt to read tasks data
+2024-03-19T02:54:47.071+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:54:47.071+0800 INFO Task retrieved
+2024-03-19T02:55:06.947+0800 INFO Attempt to read tasks data
+2024-03-19T02:55:06.993+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:55:06.993+0800 INFO Task retrieved
+2024-03-19T02:55:25.111+0800 INFO Attempt to read tasks data
+2024-03-19T02:55:25.159+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:55:25.159+0800 INFO Task retrieved
+2024-03-19T02:55:47.864+0800 INFO Attempt to read tasks data
+2024-03-19T02:55:47.865+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:55:47.865+0800 INFO Attempt to write tasks data
+2024-03-19T02:55:47.877+0800 INFO Successfully wrote tasks data
+2024-03-19T02:55:47.877+0800 INFO Task was added
+2024-03-19T02:55:58.068+0800 INFO Attempt to read tasks data
+2024-03-19T02:55:58.068+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:55:58.068+0800 INFO Attempt to write tasks data
+2024-03-19T02:55:58.069+0800 INFO Successfully wrote tasks data
+2024-03-19T02:55:58.070+0800 INFO Task was added
+2024-03-19T02:56:03.340+0800 INFO Attempt to read tasks data
+2024-03-19T02:56:03.340+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:56:03.341+0800 INFO Attempt to write tasks data
+2024-03-19T02:56:03.341+0800 INFO Successfully wrote tasks data
+2024-03-19T02:56:03.341+0800 INFO Task was added
+2024-03-19T02:56:04.919+0800 INFO Attempt to read tasks data
+2024-03-19T02:56:04.920+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:56:04.920+0800 INFO Task retrieved
+2024-03-19T02:56:46.003+0800 INFO Attempt to read tasks data
+2024-03-19T02:56:46.004+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:56:46.004+0800 ERROR Task was not found
+2024-03-19T02:56:46.004+0800 INFO Attempt to read tasks data
+2024-03-19T02:56:46.006+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:56:46.006+0800 INFO Task retrieved
+2024-03-19T02:59:08.340+0800 INFO Attempt to read tasks data
+2024-03-19T02:59:08.389+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:59:08.389+0800 INFO Task retrieved
+2024-03-19T02:59:16.746+0800 INFO Attempt to read tasks data
+2024-03-19T02:59:16.747+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:59:16.747+0800 INFO Task retrieved
+2024-03-19T02:59:16.747+0800 INFO Attempt to read tasks data
+2024-03-19T02:59:16.747+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:59:16.747+0800 INFO Attempt to write tasks data
+2024-03-19T02:59:16.759+0800 INFO Successfully wrote tasks data
+2024-03-19T02:59:16.759+0800 INFO Task position updated
+2024-03-19T02:59:16.760+0800 INFO Attempt to read tasks data
+2024-03-19T02:59:16.761+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:59:16.762+0800 INFO Task retrieved
+2024-03-19T02:59:37.392+0800 INFO Attempt to read tasks data
+2024-03-19T02:59:37.393+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:59:37.393+0800 INFO Task retrieved
+2024-03-19T02:59:37.393+0800 INFO Attempt to read tasks data
+2024-03-19T02:59:37.394+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:59:37.394+0800 INFO Attempt to write tasks data
+2024-03-19T02:59:37.395+0800 INFO Successfully wrote tasks data
+2024-03-19T02:59:37.395+0800 INFO Task position updated
+2024-03-19T02:59:37.396+0800 INFO Attempt to read tasks data
+2024-03-19T02:59:37.396+0800 INFO Successfully retrieved tasks data
+2024-03-19T02:59:37.397+0800 INFO Task retrieved
+2024-03-19T03:00:32.483+0800 INFO Attempt to read tasks data
+2024-03-19T03:00:32.533+0800 INFO Successfully retrieved tasks data
+2024-03-19T03:00:32.533+0800 INFO Task retrieved
